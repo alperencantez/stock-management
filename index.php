@@ -1,4 +1,6 @@
 <?php
+// Bu projede XAMPP Server kullandım
+
 require "controllers/ProductsController.php";
 require "models/ProductsModel.php";
 require "config.php";
