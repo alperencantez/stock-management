@@ -1,0 +1,30 @@
+/* global css */
+
+li {
+    list-style: none;
+}
+
+.container > ul > a,
+#del-btn > a {
+    text-decoration: none;
+}
+
+.navTab {
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.navTab:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* index.php */
+
+#cardBody {
+    background-color: #dfdfdf;
+    transition: 0.2s;
+}
+
+#cardBody:hover {
+    background-color: #fff;
+}
